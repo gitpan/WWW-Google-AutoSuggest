@@ -28,8 +28,8 @@ ARGUMENTS
 
           $AutoSuggest->json(1);
 
-        Explicitally enable the return the decoded JSON object when calling
-        "search("term")"
+        Explicitally enable the return of the decoded JSON object when
+        calling "search("term")"
 
     strip_html
           my $AutoSuggest=WWW::Google::AutoSuggest->new(strip_html=>0);
